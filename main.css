@@ -1,0 +1,145 @@
+/* This is a CSS style file */
+
+
+
+*
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;}
+
+
+body{
+    background-color: indianred;
+    margin:auto;}
+
+/*In the figure box it can be no more than 600px, but then the image needs to adjust itself */
+
+figure{
+    max-width: 600px;}
+
+img{
+    max-width: 100%;}
+
+.container{
+    margin:20px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;}
+
+video{
+    max-width: 100%;
+    height: auto;}
+
+.video{
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    margin: auto;}
+
+
+h2{
+    margin: 10px;}
+
+h6{
+    margin-bottom:10px;
+    margin-top: -5px;}
+
+p{
+    margin: 15px;}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+    body{
+        background-color: indianred;}
+   
+    .container{
+        margin:auto;
+        background-color:antiquewhite;
+        max-width:1100px;}
+
+
+    img{
+        max-width:100%;
+        align-items: center;}
+
+    figure{
+        margin:auto;}
+    
+    h1{
+        font-size:45px;}
+
+    h2{
+        margin:20px;}
+
+    p{
+        margin:30px;}
+
+   video{
+    max-width:640px;
+    max-height: 360px;
+    padding: auto;}
+
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;}
+}
+
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+   
+}
+
+/*Anything in this section will be applied universlly regardless if mobile or desktop*/ 
+
+.container{
+    padding-bottom: 5px;
+    margin-bottom: 20px;}
+}
+figure{
+    font-style: italic;}    
+
+.description{
+    margin-top: 50px;}
+
+h1{
+    padding-top:20px;
+    text-align: center;}
+
+h2{
+    text-transform: uppercase;
+    padding-top: 20px;
+    color:darkred;}
+
+h6{
+    text-align: center;
+    padding-bottom: 20px;}
+
+p{
+    margin-top:-5px;}
+
+
+
+
+
