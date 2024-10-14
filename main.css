@@ -36,15 +36,7 @@ img{
     background-color: antiquewhite;
     margin-bottom: 20px;}
 
-video{
-    max-width: 100%;
-    height: auto;}
 
-.video{
-    display: flex;
-    justify-content: center;        
-    align-items: center;
-    margin: auto;}
 
 
 h2{
@@ -89,16 +81,7 @@ p{
     p{
         margin:30px;}
 
-   video{
-    max-width:640px;
-    max-height: 360px;
-    padding: auto;}
-
-    .video{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;}
+  
 }
 
 
